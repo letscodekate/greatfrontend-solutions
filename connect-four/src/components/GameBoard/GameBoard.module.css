@@ -1,0 +1,23 @@
+.board {
+  width: max-content;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(6, 60px);
+  gap: 8px;
+  background-color: #1c61f2;
+  border-radius: 5%;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+
+  border-radius: 50%;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

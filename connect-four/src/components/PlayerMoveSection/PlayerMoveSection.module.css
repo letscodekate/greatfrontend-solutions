@@ -1,0 +1,17 @@
+.moveSection {
+  display: flex;
+  gap: 8px;
+  border-radius: 10%;
+}
+
+.moveSectionCell {
+  all: unset;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.moveSectionCell:not(:disabled):hover {
+  cursor: pointer;
+  background-color: var(--player-color);
+}

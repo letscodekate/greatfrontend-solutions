@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.turn-indicator {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.reset-button {
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 44%;
+  background-color: #ccc;
+  cursor: pointer;
+}
