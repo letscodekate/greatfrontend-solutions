@@ -17,11 +17,13 @@ Each challenge is organized in its own folder and contains the implementation an
 
 greatfrontend/
 ├── connect-four/
+├── data-table/
 └── README.md
 
 Solutions
 | Challenge | Technologies | Concepts |
 |-----------|--------------|----------|
 | Connect Four | React, TypeScript, CSS | 2D arrays, grid traversal, state management |
+| Data Table | React, TypeScript, CSS Modules | Generic components, pagination, reusable UI patterns |
 
 More solutions will be added as I work through the challenges.

@@ -1,0 +1,15 @@
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table td,
+.table th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+.table th {
+  vertical-align: top;
+}

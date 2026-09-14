@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.turn-indicator {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.reset-button {
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 44%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.board {
+  width: max-content;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(6, 60px);
+  gap: 8px;
+  background-color: #1c61f2;
+  border-radius: 5%;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+
+  border-radius: 50%;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.moveSection {
+  display: flex;
+  gap: 8px;
+  border-radius: 10%;
+}
+
+.moveSectionCell {
+  all: unset;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.moveSectionCell:not(:disabled):hover {
+  cursor: pointer;
+  background-color: var(--player-color);
+}
+
+.winnerToken {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  color: #fff;
+}

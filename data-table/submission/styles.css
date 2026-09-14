@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 20px;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table td,
+.table th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+.table th {
+  vertical-align: top;
+}
+
+.paginationWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
